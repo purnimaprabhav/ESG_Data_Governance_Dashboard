@@ -1,0 +1,11 @@
+pandas>=1.5
+ydata-profiling>=4.2
+spacy>=3.5
+sentence-transformers>=2.2
+faiss-cpu>=1.7   # or chroma later
+langchain>=0.0.300
+openai>=0.27.0   # if using OpenAI
+fastapi>=0.95
+uvicorn>=0.22
+pytest>=7.0
+python-dotenv>=1.0
