@@ -1,0 +1,8 @@
+column,dtype,pii_found,pii_details
+project_id,int64,False,{}
+project_name,object,False,{}
+co2_saved_emissions,float64,False,{}
+email,object,True,"{'email': {'count_sample': 2, 'examples': ['alice.jones@example.com', 'bob.smith@example.com']}}"
+contact_phone,object,True,"{'phone_eu': {'count_sample': 2, 'examples': ['6 12 34 56 78', '44 7911 123456']}}"
+funding_eur,int64,True,"{'phone_eu': {'count_sample': 1, 'examples': ['5000000 3000000']}}"
+job_count,int64,False,{}
